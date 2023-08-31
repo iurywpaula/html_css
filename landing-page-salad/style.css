@@ -1,0 +1,355 @@
+/*
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Pacifico', cursive;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('/images/bg_icones.svg');
+    background-color: #004C1C;
+}
+
+.container-main {
+    background-color: #E3EDCC;
+    width: 660px;
+    height: 100vb;
+    margin-left: 60px;
+    position: absolute;
+    float: left;
+}
+
+.nav {
+    width: 660px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.nav a {
+    margin: 0px 30px;
+    color: #004C1C;
+    text-align: center;
+    font-family: Fjalla One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main {
+    position: relative;
+    top: 150px;
+    text-align: center;
+
+}
+
+.nome-restaurante {
+    color: #9EC153;
+    font-family: Pacifico;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.nome-restaurante-cont {
+    color: #034D1B;
+    font-family: Fjalla One;
+    font-size: 78px;
+    position: relative;
+    bottom: 20px;
+}
+
+.texto {
+    color: #004C1C;
+    font-family: Fjalla One;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0px auto;
+    width: 540px;
+}
+
+.box-inscreva-se {
+    margin: 150px auto 0px auto;
+    width: 455px;
+    height: 53px;
+    border-radius: 29px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 76, 28, 0.20);
+}
+
+.box-inscreva-se label {
+    background-color: #004C1C;
+    color: #E3EDCC;
+    font-family: Fjalla One;
+    font-size: 27px;
+    width: 161px;
+    height: 53px;
+    border-radius: 29px;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    line-height: 53px;
+}
+
+.box-inscreva-se input {
+    line-height: 53px;
+    color: #004c1c;
+    font-family: Fjalla One;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+footer {
+    color: #004C1C;
+    font-family: Fjalla One;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 200px;
+}
+
+/*Segundo Container com os menus*/
+.container-second {
+    float: right;
+    width: 1000px;
+
+}
+
+.boxes {
+    margin: 120px 50px 50px 50px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.box-social-media {
+    width: 50%;
+    margin: 0;
+}
+.box-social-media a {
+    margin: 20px;
+}
+
+.box-pesquisar {
+    width: 50%;
+    justify-content: right;
+}
+
+.box_1 img, .box_2 img {
+    margin-bottom: 20px;
+}
+
+.box_1 h2, .box_2 h2 {
+    margin-bottom: 5px;
+    color: #9EC153;
+    font-family: Fjalla One;
+    font-size: 27px;
+}
+
+.box_1 p, .box_2 p {
+    color: #E2F3D2;
+    font-family: Fjalla One;
+    font-size: 18px;
+}
+
+.nav-second-container {
+    display: flex;
+    margin: 30px;
+    width: 800px;
+}
+
+.pesquisar input {
+    border-radius: 29px;
+    background: #ffffff;
+    width: 281px;
+    height: 53px;
+    flex-shrink: 0;
+    font-family: Fjalla One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+
+/*Responsividade com Medias Querys*/
+
+@media (min-width: 412px) and (max-width: 450px) {
+
+    body {
+        height: 1830px;
+        position: relative;
+    }
+
+    .container-main {
+        background-color: #E3EDCC;
+        width: 450px;
+        height: 750px;
+        position: absolute;
+        right: 1px;
+    }
+    
+    .nav {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 110px;
+
+    }
+    
+    .nav a {
+        color: #004C1C;
+        text-align: center;
+        font-family: Fjalla One;
+        font-size: 15px;
+    }
+    
+    .main {
+        position: relative;
+        top: 150px;
+        text-align: center;
+    
+    }
+    
+    .nome-restaurante {
+        color: #9EC153;
+        font-family: Pacifico;
+        font-size: 28px;
+    }
+    
+    .nome-restaurante-cont {
+        color: #034D1B;
+        font-family: Fjalla One;
+        font-size: 38px;
+        margin-top: 10px;
+    }
+    
+    .texto {
+        color: #004C1C;
+        font-family: Fjalla One;
+        font-size: 15px;
+        margin: 0px auto;
+        width: 240px;
+    }
+    
+    .box-inscreva-se {
+        margin: 50px auto 0px auto;
+        width: 255px;
+        height: 25px;
+        border-radius: 29px;
+        background: #FFF;
+        box-shadow: 0px 2px 2px 0px rgba(0, 76, 28, 0.20);
+    }
+    
+    .box-inscreva-se label {
+        background-color: #004C1C;
+        color: #E3EDCC;
+        font-family: Fjalla One;
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+        border-radius: 29px;
+        float: left;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+    }
+    
+    .box-inscreva-se input {
+        line-height: 25px;
+        color: #004c1c;
+        font-family: Fjalla One;
+        font-size: 12px;
+        border: none;
+        outline: none;
+    }
+    
+    footer {
+        color: #004C1C;
+        font-family: Fjalla One;
+        font-size: 15px;
+        margin-top: px;
+    }
+
+    /*Segundo Container com os menus*/
+    .container-second {
+        position: relative;
+        top: 600px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .boxes {
+        width: 412px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .box-social-media {
+        width: 50%;
+        margin: 0;
+    }
+    .box-social-media a {
+        margin: 10px;
+    }
+
+    .box-pesquisar {
+        width: 50%;
+        justify-content: right;
+    }
+
+    .box_1 img, .box_2 img {
+        margin-bottom: 10px;
+    }
+
+    .box_1 h2, .box_2 h2 {
+        margin-bottom: 5px;
+        color: #9EC153;
+        font-family: Fjalla One;
+        font-size: 17px;
+    }
+
+    .box_1 p, .box_2 p {
+        color: #E2F3D2;
+        font-family: Fjalla One;
+        font-size: 12px;
+    }
+
+    .nav-second-container {
+        margin: 30px;
+        width: 400px;
+    }
+
+    .pesquisar input {
+        border-radius: 29px;
+        background: #ffffff;
+        width: 281px;
+        height: 53px;
+        flex-shrink: 0;
+        font-family: Fjalla One;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        outline: none;
+        border: none;
+    }
+}
