@@ -1,0 +1,175 @@
+/*
+#cores
+amarelo: #FFC75A
+verde: #A7BF42
+roxo: #68004A
+fundo: #530050
+
+# Tipografia
+fonte: Arial
+parágrafos: 20px
+Acompanhamentos e tamanhos: 64px
+
+# Tamanhos
+conteúdo principal: máximo 1000px
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: #530050;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2 {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+.conteudo h1, h2, p {
+    color: #FFC75A;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu a{
+    background: #FFC75A;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #68004A;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+}
+
+.introducao {
+    background: #68004A;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+}
+
+.detalhe {
+    width: 80px;
+    height: 5px;
+    background: #A7BF42;
+    position: absolute;
+    top: 30px;
+    right: -40px;
+}
+
+.botao {
+    background: #FFC75A;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #68004A;
+    text-transform: uppercase;
+}
+
+#box-texto-acompanhamentos {
+    position: relative;
+}
+#acompanhamentos-box1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    background: #530050;
+    text-align: right;
+    align-self: center;
+    padding: 50px;
+}
+.detalhe2 {
+    width: 80px;
+    height: 5px;
+    background: #A7BF42;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+.detalhe3 {
+    width: 80px;
+    height: 5px;
+    background: #A7BF42;
+    position: absolute;
+    top: 225px;
+    left: 290px;
+}
+
+
+
+#acompanhamentos-box2 {
+    background: #68004A;
+    padding: 40px;
+}
+#acompanhamentos-tamanhos {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    gap: 65px;
+    margin: 15px 0;
+}
+
+.acompanhamentos-tamanho p {
+    margin-top: 10px;
+}
+
+#adicionais-titulo {
+    margin-top: 40px;
+}
+
+
+
+#acompanhamentos-frutas {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 15px 0;
+}
+.acompanhamentos-fruta img {
+    margin: 0px auto;
+}
+.acompanhamentos-fruta p {
+    margin-top: 10px;
+}
+
+
+#rodape {
+    background: #68004A;
+    height: 50px;
+    width: 1200px;
+}
+#rodape p {
+    text-align: center;
+    line-height: 50px;
+}
